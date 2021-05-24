@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+* {box-sizing: border-box;}
+$white: white;
+$basicColor: #FF7700;
+$black: black;
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color:$basicColor;
+  padding: 20px 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}
+
+.header a {
+  float: left;
+  color: $black;
+  text-align: center;
+  padding: 0px 12px;
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom-width: 1px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: $white;
+}
+
+.header a.active {
+  border: 1px;
+  color: $white;
+}
+
+.header-right {
+  float: right;
+}
+.mat-grid-list {
+  display: block;
+  position: relative;
+  padding: 60px !important;
+}
+.m-t-50{
+  margin-top: 50px;
+}
+.m-t-100{
+  margin-top: 100px;
+}
+.m-20{
+  margin: 20px;
+  padding: 50px;
+}
+.m-b-50{
+  margin-bottom: 50px;
+}
+.p-b-50{
+  padding-bottom: 50px;
+}
+.m-10{
+  margin: 10px;
+}

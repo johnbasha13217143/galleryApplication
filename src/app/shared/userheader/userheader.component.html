@@ -1,0 +1,10 @@
+<div class="header">
+    <a href="#default" class="logo">CompanyLogo</a>
+    <div class="header-right">
+      <a [class] = "getActiveClass('/userModule/userHome')" (click)="home()">Home</a>
+      <a [class] = "getActiveClass('/userModule/userAbout')" (click)="about()">About</a>
+      <a [class] = "getActiveClass('/userModule/gallery')" (click)="gallery()">Gallery</a>
+      <a (click)="logout()">Logout</a>
+    </div>
+  </div>
+  

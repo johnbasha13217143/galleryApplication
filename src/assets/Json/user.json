@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "userId": "abc@media.com",
+    "password": "abc123"
+  },
+  {
+    "id": 2,
+    "userId": "def@media.com",
+    "password": "def123"
+  }
+]

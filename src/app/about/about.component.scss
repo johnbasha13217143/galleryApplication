@@ -1,0 +1,22 @@
+$basicColor: #FF7700;
+$white: white;
+$black : black;
+$lightgray: lightgray;
+
+.border{
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid $basicColor;
+    height: 80px;
+    width: 81px;
+    padding: 28px;
+    margin: 20px auto;
+}
+.border:hover {
+    background-color: $basicColor;
+    color: $white;
+}
+.lightgray{
+    background-color: $lightgray;
+    padding: 20px;
+}

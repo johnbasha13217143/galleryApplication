@@ -1,0 +1,24 @@
+<app-header></app-header>
+<div class="container loginForm">
+    <mat-card-title>Login</mat-card-title>
+    <mat-card-content>
+      <form [formGroup]="submitEM" (ngSubmit)="submit()">
+        <p>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Username" formControlName="username">
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field>
+            <input type="password" matInput placeholder="Password" formControlName="password">
+          </mat-form-field>
+        </p>
+        <div class="button">
+          <button type="cancel" class="background" mat-button (click)="cancel()">Cancel</button>
+          <button type="submit" class="background" mat-button>Login</button>
+        </div>
+  
+      </form>
+    </mat-card-content>
+</div>
+<app-footer></app-footer>
